@@ -27,6 +27,9 @@
     Avoid using nested classes. Prefer to use a seperate file for them. Enums are the only exception.
     
     Avoid using singletons for subsystems. Prefer to initialize each subsystem once in RobotContainer and require instances of said subsystems in Command constructors.
+
+    Break functions up to smallest possible logical units, making code more testable and reusable
+    Functions that use each other should be defined next to each other
 */
 
 public class ThisIsAClass { // Classes use UpperCamelCase
